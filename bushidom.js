@@ -120,13 +120,6 @@ node.prototype = {
 		l = temp.length;
 		while(l--) temp[l].addEventListener(event, fn, false);
 	}
-	/*
-	eventRemove: function() {
-		temp = this.elements;
-		l = temp.length;
-		while(l--) temp[l].removeEventListener(event, fn, false);
-	}
-	*/
 };
 
 $_dom = function(arg) {
